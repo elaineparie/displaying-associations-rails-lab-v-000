@@ -1,6 +1,5 @@
 <%@songs.each do |song|%>
 <%if song.artist%>
-<%binding.pry%>
 <p><%= link_to song.artist_name, artist_path(song.artist)%></p>
 <%end%>
 <%end%>
