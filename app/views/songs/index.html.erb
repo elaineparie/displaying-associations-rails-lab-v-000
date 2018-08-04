@@ -1,3 +1,5 @@
 <%@songs.each do |song|%>
-<%= @song.artist - @song.title, if @song.artist%>
+<%if @song.artist%>
+<%= @song.artist - @song.title%>
+<%end%>
 <%end%>
